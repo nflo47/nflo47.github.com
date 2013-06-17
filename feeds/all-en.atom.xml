@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Phenotypic</title><link href="http://phenotypic.net/" rel="alternate"></link><link href="http://phenotypic.net/feeds/all-en.atom.xml" rel="self"></link><id>http://phenotypic.net/</id><updated>2013-06-16T18:06:15-07:00</updated><entry><title>Summer Reading</title><link href="http://phenotypic.net/summer-reading.html" rel="alternate"></link><updated>2013-06-16T18:06:15-07:00</updated><author><name></name></author><id>tag:phenotypic.net,2013-06-16:summer-reading.html</id><summary type="html">&lt;ol&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Phenotypic</title><link href="http://phenotypic.net/" rel="alternate"></link><link href="http://phenotypic.net/feeds/all-en.atom.xml" rel="self"></link><id>http://phenotypic.net/</id><updated>2013-06-16T18:08:21-07:00</updated><entry><title>Summer Reading</title><link href="http://phenotypic.net/summer-reading.html" rel="alternate"></link><updated>2013-06-16T18:08:21-07:00</updated><author><name></name></author><id>tag:phenotypic.net,2013-06-16:summer-reading.html</id><summary type="html">&lt;ol&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;em&gt;Python Programming: An Introduction to Computer Science&lt;/em&gt; by John Zelle&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Python Programming: An Introduction to Computer Science&lt;/em&gt;&lt;/strong&gt; by John Zelle&lt;/p&gt;
 &lt;p&gt;Programming is only not utterly borring when a finished product is involved (e.g., this blog), and I hope to generate more tangible goods soon.  Looking to do something "data analysis" related next time to pair with my science background.  &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;em&gt;The Man In the High Castle&lt;/em&gt; by Philip k. Dick&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;The Man In the High Castle&lt;/em&gt;&lt;/strong&gt; by Philip k. Dick&lt;/p&gt;
 &lt;p&gt;A romp through an alternate history years after WWII where the Germans won and an arms race is occurring between them and the Japanese. It's a tale of an alternative present, questioning our perception of reality and the records that follow.  &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Ted Chiang's short story collection, &lt;em&gt;Story of Your Life and Others&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Ted Chiang's short story collection, &lt;strong&gt;&lt;em&gt;Story of Your Life and Others&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;One of my favorites from the book was originally published in Nature as &lt;a href="http://www.nature.com/nature/journal/v405/n6786/full/405517a0.html"&gt;Catching Crumbs from the Table&lt;/a&gt;.  It is a futuristic look at a research world dominated by metahumans, causing a knowledge gap for human scientists. Not as dystopian as it sounds.  &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Many articles and a few books on current trends in biotech and healthcare. On deck is a book touting     the benefits of personalized healthcare, titled &lt;a href="http://www.%20%20%20%20%20%20amazon.com/The-Creative-Destruction-Medicine-Revolution/dp/0465025501"&gt;The Creative Destruction of Medicine&lt;/a&gt;.  &lt;/p&gt;
+&lt;p&gt;Many articles and a few books on current trends in biotech and healthcare. On deck is a book touting     the benefits of personalized healthcare, titled &lt;a href="http://www.%20%20%20%20%20%20%20%20amazon.com/The-Creative-Destruction-Medicine-Revolution/dp/0465025501"&gt;&lt;em&gt;The Creative Destruction of Medicine&lt;/em&gt;&lt;/a&gt;.  &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;In Search of Lost Time, vol 1: Swann's Way&lt;/em&gt;&lt;/strong&gt; by Marcel Proust&lt;/p&gt;
