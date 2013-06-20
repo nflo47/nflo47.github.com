@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Phenotypic</title><link>http://phenotypic.net/</link><description></description><atom:link href="http://phenotypic.net/feeds/all.rss.xml" rel="self"></atom:link><lastBuildDate>Sun, 16 Jun 2013 18:08:21 -0700</lastBuildDate><item><title>Summer Reading</title><link>http://phenotypic.net/summer-reading.html</link><description>&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Python Programming: An Introduction to Computer Science&lt;/em&gt;&lt;/strong&gt; by John Zelle&lt;/p&gt;
-&lt;p&gt;Programming is only not utterly borring when a finished product is involved (e.g., this blog), and I hope to generate more tangible goods soon.  Looking to do something "data analysis" related next time to pair with my science background.  &lt;/p&gt;
-&lt;/li&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Phenotypic</title><link>http://phenotypic.net/</link><description></description><atom:link href="http://phenotypic.net/feeds/all.rss.xml" rel="self"></atom:link><lastBuildDate>Thu, 20 Jun 2013 07:29:25 -0700</lastBuildDate><item><title>Summer Reading</title><link>http://phenotypic.net/summer-reading.html</link><description>&lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;The Man In the High Castle&lt;/em&gt;&lt;/strong&gt; by Philip k. Dick&lt;/p&gt;
 &lt;p&gt;A romp through an alternate history years after WWII where the Germans won and an arms race is occurring between them and the Japanese. It's a tale of an alternative present, questioning our perception of reality and the records that follow.  &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Python Programming: An Introduction to Computer Science&lt;/em&gt;&lt;/strong&gt; by John Zelle&lt;/p&gt;
+&lt;p&gt;Programming is only not utterly borring when a finished product is involved (e.g., this blog), and I hope to generate more tangible goods soon.  Looking to do something "data analysis" related next time to pair with my science background.  &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Ted Chiang's short story collection, &lt;strong&gt;&lt;em&gt;Story of Your Life and Others&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
@@ -19,7 +19,7 @@
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;In Search of Lost Time, vol 1: Swann's Way&lt;/em&gt;&lt;/strong&gt; by Marcel Proust&lt;/p&gt;
 &lt;p&gt;The passages in this book will exercise your memory facilities, conjuring up thoughts, feelings, you have not revisited in many years.  2013 also marks the &lt;a href="http://www.nytimes.com/interactive/2013/05/02/books/proust-project.html?_r=0#/#weber1"&gt;100th anniversary&lt;/a&gt; of its publication.  &lt;/p&gt;
 &lt;/li&gt;
-&lt;/ol&gt;</description><pubDate>Sun, 16 Jun 2013 18:08:21 -0700</pubDate><guid>tag:phenotypic.net,2013-06-16:summer-reading.html</guid></item><item><title>Mapping the Brain with Big Science</title><link>http://phenotypic.net/mapping-the-brain-with-big-science.html</link><description>&lt;p&gt;At a time when only &lt;a href="http://report.nih.gov/success_rates/"&gt;1 in 5&lt;/a&gt; researchers secure grant funding and many scientists are struggling to find qualified work, details recently emerged on a potential groundbreaking project called the Brain Activity Map (aka BAM).  The multi-billion dollar proposal follows in the footsteps of similar large-scale science projects such as the Human Genome and recent ENCODE.  Initial reports of BAM occurred after President Obama’s State of The Union address, where he once again emphasized the importance of Science &amp;amp; Technology  (STEM) to ease the nations fears. &lt;/p&gt;
+&lt;/ol&gt;</description><pubDate>Thu, 20 Jun 2013 07:29:25 -0700</pubDate><guid>tag:phenotypic.net,2013-06-20:summer-reading.html</guid></item><item><title>Mapping the Brain with Big Science</title><link>http://phenotypic.net/mapping-the-brain-with-big-science.html</link><description>&lt;p&gt;At a time when only &lt;a href="http://report.nih.gov/success_rates/"&gt;1 in 5&lt;/a&gt; researchers secure grant funding and many scientists are struggling to find qualified work, details recently emerged on a potential groundbreaking project called the Brain Activity Map (aka BAM).  The multi-billion dollar proposal follows in the footsteps of similar large-scale science projects such as the Human Genome and recent ENCODE.  Initial reports of BAM occurred after President Obama’s State of The Union address, where he once again emphasized the importance of Science &amp;amp; Technology  (STEM) to ease the nations fears. &lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;The project, which the administration has been looking to unveil as early as March, will include federal agencies, private foundations and teams of neuroscientists and nanoscientists in a concerted effort to advance the knowledge of the brain’s billions of neurons and gain greater insights into       perception, actions and, ultimately, consciousness.
 &lt;a href="http://www.nytimes.com/2013/02/18/science/project-seeks-to-build-map-of-human-brain.html?pagewanted=all&amp;amp;_r=0"&gt;New York Times&lt;/a&gt;&lt;/p&gt;
