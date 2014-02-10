@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Phenotypic</title><link href="http://phenotypic.net/" rel="alternate"></link><link href="http://phenotypic.net/feeds/test.atom.xml" rel="self"></link><id>http://phenotypic.net/</id><updated>2013-12-24T08:41:26-08:00</updated><entry><title>test</title><link href="http://phenotypic.net/test.html" rel="alternate"></link><updated>2013-12-24T08:41:26-08:00</updated><author><name></name></author><id>tag:phenotypic.net,2013-12-24:test.html</id><summary type="html">&lt;p&gt;this is
+    dkdkddk
+    dkddkdkdk
+    sksksks
+dkkddd
+dkddkdkd&lt;/p&gt;
+&lt;p&gt;[[embed url=http://www.youtube.com/watch?v=6YbBmqUnoQM]]
+[[embed url=http://www.youtube.com/watch?v=6YbBmqUnoQM]]&lt;/p&gt;</summary></entry></feed>

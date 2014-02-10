@@ -57,8 +57,8 @@
 
     <div class='article'>
         <div class="content-title">
-            <a href="./the-race-for-new-heart-drugs.html"><h1>The Race for New Heart Drugs</h1></a>
-            October 07 2013
+            <a href="./dabbling-into-data-analysis-with-python.html"><h1>Dabbling into Data Analysis with Python</h1></a>
+            January 06 2014
 
  
 
@@ -66,12 +66,28 @@
  
         </div>
         
-        <div><p>With all the hype over personalized medicine the past few years, the field has yet to deliver on translating the Human Genome Project into clinical value beyond the mountains of sequencing data. But, in a unique approach combining detailed subject physiological information and genomic data, hope and hype surrounds a new low-density lipoprotein (LDL) target to battle heart disease.  The underlying truth of the gene PCSK9  is currently being revealed in clinical studies to develop new cholesterol fighting, antibodies. It’s also making pharma CEOs salivate with direct to consumer ads buzzing in their eardrums. </p>
-<p>What makes this enzyme (full name: proprotein convertase subtilisin/kexin type 9) fascinating and potentially worth billions for drug developers? It’s ability to push LDL (aka “bad cholesterol”) to unseen low levels as reported in mid-stage clinical studies from Pfizer (New Jersey), Sanofi (France), and Amgen (America). These companies and a few others have touted positive results in toxicity and efficacy, with the pivotal <a href="http://Clinicaltrials.gov/ct2/results?term=PCSK9+AND+low+density+lipoprotein+cholesterol">Phase III studies</a> now in the limelight.  </p>
-<p>The discovery of this enzyme as a potential blockbuster cholesterol therapy stems from the novel way in that the clinical studies were designed.  Based off early studies, it was inferred that a knockout mutation in PCSK9 would result in significantly lower cholesterol levels.  <a href="http://www.nature.com/news/genetics-a-gene-of-rare-effect-1.12773">Clinical research team Helen Hobbs and Jonathan Cohen</a> at UT Southwestern took people with extremely high and low LDL, stratified them accordingly, and it eventually demonstrated the low LDL group had a missense mutation in their PCSK9 gene.  In a nutshell, they started with the phenotypic basis of heart disease and reduced down to Mendelian level genetics to illustrate mutation’s role in keeping cholesterol levels down.</p>
-<p>The current treatment for high cholesterol predominantly consists of statins (e.g., Lipitor, Crestor).  According to rock star physician Eric Topol, <a href="http://www.nytimes.com/2012/03/05/opinion/the-diabetes-dilemma-for-sta
-tin-users.html?_r=0">statins only reduces the rate</a> of heart attack’s in patients trying to lower the risk to a pathetic 2 in 100, and there are harmful side effects such as forgetfulness and muscle pain. So clearly there is need for better medications to treat heart disease.  Large-scale randomized controlled trial data will be the next step for the aforementioned drug companies to showcase if approval for the drug is warranted.</p>
-<p>Since these new classes of drugs are expensive monoclonal antibodies, they may need to be significantly more effective than current treatments to receive FDA approval.  Antibody therapeutics are notoriously pricey, and these could very well cost patients tens of thousands of dollars.  If one of the companies can formulate into a cheaper, oral pill then that may give them an advantage over competition. These are some of the important questions to consider if any of the drugs can fine their way to the marketplace. </p></div>
+        <div><p>One thing that I have been looking to familiarize myself with is Pandas, the popular data analysis program for Python.  It has numerous features you can do in Excel, but without the terrible structure and design.  I was fortunate to come across a very good introductory tutuorial on my Twitter feed created by Greg Reda, and posted a link to it at the bottom.  Note, he also used Pelican to built his personal website.  </p>
+<p>Over the past few months I have been itching to work on a data-oriented project using the basic programming skills developed the past 1.5 years.  From what I read about Pandas, it sounded like a great way to start.  And as far as projects were concerned, doing some simple analyses of science and health data from government databases (PubMed, ClinialTrials.gov, etc) seemed interesting enough as a starting point.  </p>
+<p>When you visit these websites, there are a couple of options to download data.  Pretty much any of the standard file types are available such as plain text, .csv, or XML.</p>
+<p>Going through Greg Reda’s tutorial, I discovered I can load a .csv (easiest format to work with in Pandas) directly to a DataFrame.  Greg defines a DataFrame as “A DataFrame is a tablular data structure comprised of rows and columns, akin to a spreadsheet, database table, or R's data.frame object.”  It is the building block for Python Pandas methods to run.  </p>
+<p>After downloading a .csv file on ClinicalTrials.gov on Parkinson’s disease, below is how I loaded it into a DataFrame:</p>
+<div class="codehilite"><pre><span class="n">In</span> <span class="p">[</span><span class="mi">8</span><span class="p">]</span><span class="o">:</span> <span class="n">from_csv</span> <span class="o">=</span> <span class="n">pd</span><span class="p">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s">&quot;study_fields.csv&quot;</span><span class="p">)</span>
+
+<span class="n">In</span> <span class="p">[</span><span class="mi">9</span><span class="p">]</span><span class="o">:</span> <span class="n">from_csv</span><span class="p">.</span><span class="n">head</span><span class="p">()</span>
+<span class="cp">#this outputs the first five records...</span>
+
+<span class="n">Out</span><span class="p">[</span><span class="mi">9</span><span class="p">]</span><span class="o">:</span> 
+   <span class="n">Rank</span>                                              <span class="n">Title</span> <span class="n">Recruitment</span>  \
+<span class="mi">0</span>     <span class="mi">1</span>     <span class="n">Leukine</span> <span class="p">(</span><span class="n">Sargramostim</span><span class="p">)</span> <span class="k">for</span> <span class="n">Parkinson</span><span class="err">&#39;</span><span class="n">s</span> <span class="n">Disease</span>  <span class="n">Recruiting</span>   
+<span class="mi">1</span>     <span class="mi">2</span>  <span class="n">A</span> <span class="n">Fourteen</span><span class="o">-</span><span class="n">Week</span> <span class="n">Placebo</span><span class="o">-</span><span class="n">Controlled</span> <span class="n">Dose</span><span class="o">-</span><span class="n">Respon</span><span class="p">...</span>   <span class="n">Completed</span>   
+<span class="mi">2</span>     <span class="mi">3</span>  <span class="n">Study</span> <span class="n">Evaluating</span> <span class="n">Sumanirole</span> <span class="k">for</span> <span class="n">the</span> <span class="n">Treatment</span> <span class="p">...</span>   <span class="n">Completed</span>   
+<span class="mi">3</span>     <span class="mi">4</span>                      <span class="n">PROGENI</span> <span class="n">Family</span> <span class="n">Study</span> <span class="n">of</span> <span class="n">LRRK2</span>  <span class="n">Recruiting</span>   
+<span class="mi">4</span>     <span class="mi">5</span>  <span class="n">Safety</span> <span class="n">and</span> <span class="n">Efficacy</span> <span class="n">Study</span> <span class="n">of</span> <span class="n">CEP</span><span class="o">-</span><span class="mi">1347</span> <span class="n">in</span> <span class="n">the</span> <span class="n">T</span><span class="p">...</span>  <span class="n">Terminated</span>
+</pre></div>
+
+
+<p>I only posted the first column there as it spits it out in a very unreadable fashion in your terminal.  Let’s say I want to export the data frame to an Excel file.  Pandas has a function to take care of that, as it integrates well with other Python libraries.  Needless to say, this tutorial is worth your time if you are interested in Python for data analysis.  I certainly will be coming back to the tutorial many times while working get up to speed with the numerous features of Python Pandas.</p>
+<p><a href="http://www.gregreda.com/2013/10/26/intro-to-pandas-data-structures/">Greg Reda - Intro to pandas data structures</a></p></div>
         <hr />
     </div>
 		
@@ -82,8 +98,25 @@ tin-users.html?_r=0">statins only reduces the rate</a> of heart attack’s in pa
  
 
     <div class='article'>
+        <a href="./mapping-the-brain-with-big-science.html"><h2>Mapping the Brain with Big Science</h2></a>
+        <div class= "well small"> December 24 2013
+
+ 
+
+
+ </div>
+        <div class="summary"><p>At a time when only <a href="http://report.nih.gov/success_rates/">1 in 5</a> researchers secure grant funding and many scientists are struggling to find qualified work, details recently emerged on a potential groundbreaking project called the Brain Activity Map (aka BAM).  The multi-billion dollar proposal follows in the footsteps of similar large-scale science projects such ...</p> <a class="btn btn-info xsmall" href="./mapping-the-brain-with-big-science.html">read more</a></div>
+    </div>	
+				
+    
+ 
+        
+
+ 
+
+    <div class='article'>
         <a href="./summer-reading.html"><h2>Summer Reading</h2></a>
-        <div class= "well small"> June 20 2013
+        <div class= "well small"> December 24 2013
 
  
 
@@ -102,14 +135,21 @@ tin-users.html?_r=0">statins only reduces the rate</a> of heart attack’s in pa
  
 
     <div class='article'>
-        <a href="./mapping-the-brain-with-big-science.html"><h2>Mapping the Brain with Big Science</h2></a>
-        <div class= "well small"> March 31 2013
+        <a href="./test.html"><h2>test</h2></a>
+        <div class= "well small"> December 24 2013
 
  
 
 
  </div>
-        <div class="summary"><p>At a time when only <a href="http://report.nih.gov/success_rates/">1 in 5</a> researchers secure grant funding and many scientists are struggling to find qualified work, details recently emerged on a potential groundbreaking project called the Brain Activity Map (aka BAM).  The multi-billion dollar proposal follows in the footsteps of similar large-scale science projects such ...</p> <a class="btn btn-info xsmall" href="./mapping-the-brain-with-big-science.html">read more</a></div>
+        <div class="summary"><p>this is
+    dkdkddk
+    dkddkdkdk
+    sksksks
+dkkddd
+dkddkdkd</p>
+<p>[[embed url=http://www.youtube.com/watch?v=6YbBmqUnoQM]]
+[[embed url=http://www.youtube.com/watch?v=6YbBmqUnoQM]]</p> <a class="btn btn-info xsmall" href="./test.html">read more</a></div>
     </div>	
 				
             <div class="pagination">
@@ -117,8 +157,9 @@ tin-users.html?_r=0">statins only reduces the rate</a> of heart attack’s in pa
     <li class="prev disabled"><a href="#">&larr; Previous</a></li>
 
     <li class="active"><a href="./index.html">1</a></li>
+    <li class=""><a href="./index2.html">2</a></li>
 
-    <li class="next disabled"><a href="#">&rarr; Next</a></li>
+    <li class="next"><a href="./index2.html">Next &rarr;</a></li>
 
 </ul>
 </div>    
@@ -148,6 +189,7 @@ tin-users.html?_r=0">statins only reduces the rate</a> of heart attack’s in pa
                 </li>
                 
                                 <li><a href="./category/articles.html">Articles</a></li>
+                                <li><a href="./category/test.html">test</a></li>
                                    
             </ul>
             </div>
